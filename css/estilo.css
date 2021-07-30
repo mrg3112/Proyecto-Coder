@@ -1,0 +1,127 @@
+.productos__titulo--propiedades {
+  text-align: center;
+  text-decoration: underline; }
+
+.producto__titulo--tamanio {
+  padding-bottom: 20px; }
+
+.producto__detalle--formato {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 13px;
+  padding-left: 30px; }
+
+.producto__imagen--detalle {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px; }
+
+.servicios {
+  border: solid 1px;
+  display: flex;
+  padding-left: 20px; }
+
+.servicios__titulo--propiedades {
+  text-align: center;
+  text-decoration: underline; }
+
+.servicios__titulo--tamanio {
+  padding-bottom: 20px; }
+
+.servicios__detalle--formato {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 13px;
+  padding-left: 30px; }
+
+.servicios__imagen--detalle {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px; }
+
+.sliderGaleria {
+  display: flex;
+  padding-left: 250px; }
+
+.footerBG {
+  background-image: radial-gradient(circle, white, blue); }
+
+.ico_footer {
+  transition: 1s; }
+
+.ico_footer:hover {
+  transform: scale(2, 2);
+  cursor: pointer; }
+
+footer div h6 {
+  padding-bottom: 15px; }
+
+footer div p {
+  margin-bottom: 2px; }
+
+.redesSociales {
+  display: flex;
+  justify-content: center; }
+
+.logoBG {
+  background-image: linear-gradient(to left, blue, lightblue); }
+
+.nav {
+  background-color: blue;
+  padding: 10px;
+  justify-content: flex-end; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  scroll-behavior: smooth; }
+
+.paddingTB {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0; }
+
+.titulo {
+  text-align: center;
+  text-decoration: underline;
+  padding-bottom: 20px; }
+
+.paddingIMG {
+  padding-top: 80px; }
+
+body {
+  background-image: linear-gradient(to top, lightblue, white); }
+
+.container-fluid {
+  width: 100%; }
+
+.divOperaciones {
+  background-color: red;
+  text-align: center;
+  padding: 10px;
+  color: yellowgreen; }
+
+.selector, .selector--carbonatos, .selector--cuarzos, .selector--talcos {
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  text-align: center;
+  color: black;
+  border: black solid 1px;
+  display: flex;
+  padding-left: 100 px; }
+
+.selector--carbonatos {
+  background-color: chocolate;
+  color: yellowgreen; }
+
+.selector--cuarzos {
+  background-color: yellow;
+  color: blue; }
+
+.selector--talcos {
+  background-color: red;
+  color: white; }

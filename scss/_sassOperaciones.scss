@@ -1,0 +1,41 @@
+.container-fluid{
+    width: 50%*2;}
+
+$estilos: (
+    color: red,
+    texto: center
+);
+
+.divOperaciones{
+    background-color: map-get($estilos, color);
+    text-align: map-get($estilos, texto);
+    padding: 10px;
+    color: yellowgreen;
+}
+
+.selector{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    border: black solid 1px;
+    display: flex;
+    padding-left: 100 px
+    
+}
+.selector--carbonatos{
+    @extend .selector;
+    background-color: chocolate;
+    color: yellowgreen;
+}
+.selector--cuarzos{
+    @extend .selector;
+    background-color: yellow;
+    color: blue; 
+}
+.selector--talcos{
+    @extend .selector;
+    background-color: red;
+    color: white;
+}

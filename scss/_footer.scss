@@ -1,0 +1,23 @@
+.footerBG{
+    background-image: radial-gradient(circle, white, blue);}
+
+.ico_footer{
+    transition:1s;}
+    
+.ico_footer:hover{
+    transform:scale(2,2);
+    cursor: pointer;}
+    
+footer{
+     div{
+        h6{
+            padding-bottom: 15px;}
+        p{
+            margin-bottom: 2px;}
+        } 
+} 
+     
+.redesSociales{
+     display: flex;
+    justify-content: center;
+}

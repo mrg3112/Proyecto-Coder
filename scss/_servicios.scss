@@ -1,0 +1,25 @@
+.servicios{
+    border: solid 1px;
+    display: flex;
+    padding-left: 20px;
+}
+
+.servicios__titulo--propiedades{
+    text-align: center; 
+    text-decoration: underline; 
+    
+}
+.servicios__titulo--tamanio{
+    padding-bottom: 20px;
+}
+.servicios__detalle--formato{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    padding-left: 30px;
+}
+.servicios__imagen--detalle{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+

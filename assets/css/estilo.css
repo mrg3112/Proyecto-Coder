@@ -1,0 +1,25 @@
+*{margin: 0; padding: 0;}
+
+ html{scroll-behavior: smooth;}
+
+.logoBG{background-image: linear-gradient( to left, blue, lightblue);}
+.nav{background-color: blue; padding: 10px; justify-content: flex-end;}
+
+.paddingTB{padding-top: 50px; padding-bottom: 50px;}
+.container.fluid{padding-left: 0; padding-right: 0;}
+.titulo{text-align: center; text-decoration: underline; padding-bottom: 20px;}
+.paddingIMG{padding-top: 80px;}
+
+.sliderGaleria{display: flex; padding-left: 250px;}
+
+.footerBG{background-image: radial-gradient(circle, white, blue);}
+
+body{background-image: linear-gradient(to top, lightblue, white);}
+
+.ico_footer{transition:1s;}
+.ico_footer:hover{transform:scale(2,2);cursor: pointer;}
+footer div h6{padding-bottom: 15px;}
+footer div p{margin-bottom: 2px;}
+
+.redesSociales{display: flex;justify-content: center;}
+
