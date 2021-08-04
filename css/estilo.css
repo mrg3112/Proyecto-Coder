@@ -7,8 +7,9 @@
 
 .producto__detalle--formato {
   font-family: 'Times New Roman', Times, serif;
-  font-size: 13px;
-  padding-left: 30px; }
+  font-size: 15px;
+  padding-left: 30px;
+  text-align: justify; }
 
 .producto__imagen--detalle {
   display: flex;
@@ -29,8 +30,9 @@
 
 .servicios__detalle--formato {
   font-family: 'Times New Roman', Times, serif;
-  font-size: 13px;
-  padding-left: 30px; }
+  font-size: 15px;
+  padding-left: 30px;
+  text-align: justify; }
 
 .servicios__imagen--detalle {
   display: flex;
@@ -125,3 +127,13 @@ body {
 .selector--talcos {
   background-color: red;
   color: white; }
+
+.clientes__listado--formato {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif; }
+
+.clientes__imagen--formato {
+  padding-top: 50px;
+  justify-content: center; }
