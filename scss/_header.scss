@@ -1,5 +1,8 @@
 .logoBG{
-    background-image: linear-gradient( to left, blue, lightblue);}
+    background-image: linear-gradient( to left, blue, lightblue);
+    display: flex;
+    justify-content: center;
+}
 
 .nav{
     background-color: blue; 

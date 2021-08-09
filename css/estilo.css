@@ -44,6 +44,11 @@
   /*display: flex;
     padding-left: 250px;*/ }
 
+.top {
+  display: flex;
+  justify-content: center;
+  text-decoration: white; }
+
 .footerBG {
   background-image: radial-gradient(circle, white, blue); }
 
@@ -54,21 +59,36 @@
   transform: scale(2, 2);
   cursor: pointer; }
 
-footer div h6 {
-  padding-bottom: 15px;
-  padding-top: 15px; }
-
 footer div p {
   margin-bottom: 2px;
   text-align: center; }
 
+.logoFooter {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.copyright {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.contactanos {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
 .redesSociales {
   display: flex;
-  position: relative;
-  padding-left: 20px; }
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 60px; }
 
 .logoBG {
-  background-image: linear-gradient(to left, blue, lightblue); }
+  background-image: linear-gradient(to left, blue, lightblue);
+  display: flex;
+  justify-content: center; }
 
 .nav {
   background-color: blue;
