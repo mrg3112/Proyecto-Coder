@@ -16,6 +16,9 @@
   justify-content: center;
   padding-bottom: 20px; }
 
+.contenido-servicios {
+  padding-bottom: 50px; }
+
 .servicios {
   border: solid 1px;
   display: flex;
@@ -41,7 +44,8 @@
 
 .sliderGaleria {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  padding-left: 250px; }
 
 .top {
   display: flex;
@@ -93,6 +97,10 @@ footer div p {
   background-color: blue;
   padding: 10px;
   justify-content: flex-end; }
+
+.navbar-color {
+  margin-right: 1rem;
+  background-color: blue; }
 
 * {
   margin: 0;
@@ -153,6 +161,9 @@ body {
 .selector--talcos {
   background-color: red;
   color: white; }
+
+.contenido-clientes {
+  padding-bottom: 50px; }
 
 .clientes__listado--formato {
   padding-top: 50px;
