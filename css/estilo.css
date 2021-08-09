@@ -40,9 +40,8 @@
   padding-bottom: 20px; }
 
 .sliderGaleria {
-  justify-content: center;
-  /*display: flex;
-    padding-left: 250px;*/ }
+  display: flex;
+  justify-content: center; }
 
 .top {
   display: flex;
@@ -98,6 +97,9 @@ footer div p {
 * {
   margin: 0;
   padding: 0; }
+
+.container-fluid {
+  overflow-x: hidden; }
 
 html {
   scroll-behavior: smooth; }
