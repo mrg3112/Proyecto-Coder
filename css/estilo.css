@@ -220,3 +220,6 @@ body {
 .seleccion--accion {
   padding-top: 30px;
   padding-bottom: 30px; }
+
+.texto--index {
+  text-align: justify; }
