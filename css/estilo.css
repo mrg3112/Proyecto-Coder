@@ -19,11 +19,6 @@
 .contenido-servicios {
   padding-bottom: 50px; }
 
-.servicios {
-  border: solid 1px;
-  display: flex;
-  padding-left: 20px; }
-
 .servicios__titulo--propiedades {
   text-align: center;
   text-decoration: underline; }
