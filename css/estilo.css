@@ -83,13 +83,12 @@ footer div p {
   padding-bottom: 10px; }
 
 .copyright {
-  padding-top: 10px;
+  padding-top: 30px;
   padding-bottom: 10px; }
 
 .contactanos {
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px; }
+  padding-top: 20px; }
 
 .redesSociales {
   display: flex;
