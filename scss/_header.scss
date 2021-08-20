@@ -1,5 +1,5 @@
 .logoBG{
-    background-image: linear-gradient( to left, blue, lightblue);
+    background-image: radial-gradient(circle, white, blue);
     display: flex;
     justify-content: center;
 }
@@ -12,5 +12,7 @@
 }
 .navbar-color{
     margin-right: 1rem;
-    background-color: blue;
+    background-image: radial-gradient(circle, white, blue);
+    background-color: blue !important;
+    text-decoration: underline;
 }

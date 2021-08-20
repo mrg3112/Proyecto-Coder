@@ -17,13 +17,14 @@
     padding-left: 0; 
     padding-right: 0;}
 
-.titulo{
+.titulo{ 
+    color: blue;
     text-align: center; 
-    text-decoration: underline; 
+    /*text-decoration: underline;*/
     padding-bottom: 20px;}
 
 .paddingIMG{
-    padding-top: 80px;}
+    padding-bottom: 100px;}
 
-body{background-image: linear-gradient(to top, lightblue, white);}
+body{background-image: linear-gradient(to top, rgb(230, 173, 197), white);}
 

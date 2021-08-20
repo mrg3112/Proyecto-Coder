@@ -1,6 +1,7 @@
 .productos__titulo--propiedades {
   text-align: center;
-  text-decoration: underline; }
+  /*text-decoration: underline; */
+  color: blue; }
 
 .producto__titulo--tamanio {
   padding-bottom: 20px; }
@@ -9,25 +10,30 @@
   font-family: 'Times New Roman', Times, serif;
   font-size: 15px;
   padding-left: 30px;
-  text-align: justify; }
+  text-align: justify;
+  margin-right: 30px; }
 
 .producto__imagen--detalle {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 20px; }
+  /*display: flex;
+    justify-content: center;*/
+  align-items: center;
+  padding-bottom: 20px;
+  padding-left: 160px;
+  padding-top: 50px; }
 
 .contenido-servicios {
   padding-bottom: 50px; }
 
 .servicios__titulo--propiedades {
   text-align: center;
-  text-decoration: underline; }
+  color: blue; }
 
 .servicios__titulo--tamanio {
   padding-bottom: 20px; }
 
 .servicios__detalle--formato {
   font-family: 'Times New Roman', Times, serif;
+  margin-right: 30px;
   font-size: 15px;
   padding-left: 30px;
   text-align: justify; }
@@ -50,7 +56,7 @@
 
 .error404 h1 {
   font-size: 50px;
-  text-decoration: underline; }
+  color: blue; }
 
 .error404--imagen {
   display: flex;
@@ -98,7 +104,7 @@ footer div p {
   padding-left: 60px; }
 
 .logoBG {
-  background-image: linear-gradient(to left, blue, lightblue);
+  background-image: radial-gradient(circle, white, blue);
   display: flex;
   justify-content: center; }
 
@@ -109,7 +115,9 @@ footer div p {
 
 .navbar-color {
   margin-right: 1rem;
-  background-color: blue; }
+  background-image: radial-gradient(circle, white, blue);
+  background-color: blue !important;
+  text-decoration: underline; }
 
 * {
   margin: 0;
@@ -130,15 +138,16 @@ html {
   padding-right: 0; }
 
 .titulo {
+  color: blue;
   text-align: center;
-  text-decoration: underline;
+  /*text-decoration: underline;*/
   padding-bottom: 20px; }
 
 .paddingIMG {
-  padding-top: 80px; }
+  padding-bottom: 100px; }
 
 body {
-  background-image: linear-gradient(to top, lightblue, white); }
+  background-image: linear-gradient(to top, #e6adc5, white); }
 
 .container-fluid {
   width: 100%; }
@@ -198,6 +207,10 @@ body {
   padding-left: 20px;
   padding-bottom: 30px;
   font-size: 10x; }
+
+.formulario--contacto {
+  padding-right: 30px;
+  margin-right: 30px; }
 
 .detalleFormulario {
   padding-left: 20px;

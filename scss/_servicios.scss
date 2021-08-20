@@ -4,7 +4,7 @@
 
 .servicios__titulo--propiedades{
     text-align: center; 
-    text-decoration: underline; 
+    color: blue; 
     
 }
 .servicios__titulo--tamanio{
@@ -12,6 +12,7 @@
 }
 .servicios__detalle--formato{
     font-family: 'Times New Roman', Times, serif;
+    margin-right: 30px;
     font-size: 15px;
     padding-left: 30px;
     text-align: justify;

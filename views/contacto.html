@@ -11,7 +11,8 @@
 	<!-- SEO -->
 	<meta name="descriptions" content="Pagina oficial de Logistica Rebollini SRL. Empresa dedicada a la logisitica, deposito y transporte terrestre de mercaderias o bienes">
 	<meta name="keywords" content="logistica transporte carga descarga deposito importacion camiones exportacion mercaderias">
-    
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- mi css -->
     <link rel="stylesheet" href="../css/estilo.css">
 
@@ -22,7 +23,7 @@
     <div class="container-fluid">
     	<div class="row">
     		<div class="col-lg-4 col-xs-12 logoBG">
-    			<a href="../index.html"><img src="../assets/img/logo-transparente.png" alt="logo logistica rebollini" height="90px"></a>
+    			<a href="../index.html"><img src="../assets/img/logo-transparente.png" alt="logo logistica rebollini" height="100px"></a>
     		</div>
     		<div class="col-lg-8 col-xs-12 nav">
     			<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-color">
@@ -51,7 +52,10 @@
         <div class="row paddingTB">
             <div class="col-lg-12 col-xs-12">
                 <div class="titulo">
+                  <div data-aos="flip-left"
+				          data-aos-duration="1000">
                     <h1>C O N T A C T O</h1>
+                  </div>
                 </div>
             </div>
         </div>
@@ -65,6 +69,7 @@
 				</div>
 				<div class="encabezadoFormulario">
 					<h3>Dejanos tus datos:</h3>
+            <div class="fomulario--contacto">
                     <form class="row g-3">
                         <div class="col-md-6">
                           <label for="inputEmail4" class="form-label">Email</label>
@@ -109,6 +114,7 @@
                           <button type="submit" class="btn btn-primary">Sign in</button>
                         </div>-->
                      </form>
+                    </div>
 					<form action="#">
 						<fieldset>
                             <div class="seleccion--servicios">
@@ -135,7 +141,10 @@
 			<div class="col-lg-6 col-xs-12">
     			<h3 class="paddingTB titulo">U B I C A C I O N</h3>
 				<di class="ubicacionGoogle">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.3030779203705!2d-58.3634104608315!3d-34.69753483729143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a332d0bfeb6067%3A0x14e416a2a67d0bf!2sLog%C3%ADstica%20Rebollini%20S.R.L.!5e0!3m2!1ses!2sar!4v1624296837289!5m2!1ses!2sar" width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          <div data-aos="fade-left"
+				  data-aos-duration="1000">
+					    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.3030779203705!2d-58.3634104608315!3d-34.69753483729143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a332d0bfeb6067%3A0x14e416a2a67d0bf!2sLog%C3%ADstica%20Rebollini%20S.R.L.!5e0!3m2!1ses!2sar!4v1624296837289!5m2!1ses!2sar" width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
 				</div>
 			</div>
 		</div>
@@ -147,7 +156,10 @@
                 <a href="#top"Ir al top>ir al top</a>
             </div>
 	    	<div class="col-lg-12 col-xs-12 logoFooter">
+          <div data-aos="zoom-in-up"
+				data-aos-duration="1000">
 				<a href="../index.html"><img src="../assets/img/logo-transparente.png" alt="logo logistica rebollini" height="80px"></a>
+          </div>
             </div>
 			<div class="col-lg-4 col-xs 12"></div>
 			<div class="col-lg-4 col-xs-12">
@@ -169,6 +181,11 @@
 			</div>	
 		</footer>
     </div>
+    <!-- AOS -->
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+ 	 AOS.init();
+	</script>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->

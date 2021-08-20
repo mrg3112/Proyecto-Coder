@@ -1,7 +1,7 @@
 .productos__titulo--propiedades{
     text-align: center; 
-    text-decoration: underline; 
-    
+    /*text-decoration: underline; */
+    color: blue;
 }
 .producto__titulo--tamanio{
     padding-bottom: 20px;
@@ -11,9 +11,13 @@
     font-size: 15px;
     padding-left: 30px;
     text-align: justify;
+    margin-right: 30px;
 }
 .producto__imagen--detalle{
-    display: flex;
-    justify-content: center;
+    /*display: flex;
+    justify-content: center;*/
+    align-items: center;
     padding-bottom: 20px;
+    padding-left: 160px;
+    padding-top: 50px;
 }
